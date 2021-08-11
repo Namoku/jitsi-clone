@@ -1,0 +1,12 @@
+name: Workflows
+on:
+  push:
+    branches:
+      - main
+jobs:
+  trabajo:
+    name: Mi primer trabajo
+    runs-on: ubuntu-latest
+    steps:
+      - name: Paso 1
+        run: echo "Primer paso, prueba"
